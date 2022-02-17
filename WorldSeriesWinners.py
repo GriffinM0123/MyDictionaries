@@ -37,5 +37,6 @@ yearWon[yr] = team
 print(yearWon)
 
 
-prompted_yr = input("What year do you want me to find the World Series Winner for?")
-print(yearWon[team][prompted_yr])
+prompted_yr = input("What year do you want me to find the World Series Winner for between 1903-2009?")
+prompted_yr = int(prompted_yr)
+print(yearWon[prompted_yr])
