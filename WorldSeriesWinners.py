@@ -40,3 +40,5 @@ print(yearWon)
 prompted_yr = input("What year do you want me to find the World Series Winner for between 1903-2009?")
 prompted_yr = int(prompted_yr)
 print(yearWon[prompted_yr])
+teampick = yearWon[prompted_yr]
+print(teamN[teampick])
